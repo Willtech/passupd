@@ -1,0 +1,11 @@
+#!/bin/bash
+# passwd modification script
+# script &copy; 2019 Willtech
+# v0.1 hand coded by HRjJ
+#
+# must run as root
+
+#Sunday 08 March " alpha"
+d=`date +%A" "%d" "%B`
+echo $d  '" alpha"' | passwd --stdin {user}
+exit
